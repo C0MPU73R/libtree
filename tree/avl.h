@@ -3,6 +3,9 @@
 class avl
 {
 public:
+	avl();
+	~avl();
+
 protected:
 private:
 

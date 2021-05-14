@@ -3,6 +3,9 @@
 class splay
 {
 public:
+	splay();
+	~splay();
+
 protected:
 private:
 };

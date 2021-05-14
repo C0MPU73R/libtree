@@ -3,6 +3,8 @@
 class nary
 {
 public:
+	nary();
+	~nary();
 protected:
 private:
 };

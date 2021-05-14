@@ -3,6 +3,8 @@
 class redBlack
 {
 public:
+	redBlack();
+	~redBlack();
 protected:
 private:
 
