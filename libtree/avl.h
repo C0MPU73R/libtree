@@ -3,7 +3,7 @@
 #ifndef AVL_H
 #define AVL_H
 #include "general.h"
-class avl: general
+class avl : general
 {
 public:
 	avl();

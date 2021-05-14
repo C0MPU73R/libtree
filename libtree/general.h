@@ -11,19 +11,20 @@ struct Node
 
 	void resetName(const std::string& name);
 };
+
 class general
 {
-public:
-	general();
-	~general();
-	void addNode();
-	void removeNode();
-	Node* getRoot(); const
+	public:
+		general();
+		~general();
+		void addNode(int x, int y, std::string name);
+		void removeNode();
+		Node* getRoot() const;
 
+	protected:
 
-protected:
-private:
-	Node* root;
+	private:
+		Node* root;
 
 
 };

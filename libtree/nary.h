@@ -3,7 +3,7 @@
 #ifndef NARY_H
 #define NARY_H
 #include "general.h"
-class nary: general
+class nary : general
 {
 public:
 	nary();

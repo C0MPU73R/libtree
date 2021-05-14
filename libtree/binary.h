@@ -3,7 +3,7 @@
 #ifndef BINARY_H
 #define BINARY_H
 #include "general.h"
-class binary: general
+class binary : general
 {
 public:
 	binary();

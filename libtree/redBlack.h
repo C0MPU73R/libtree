@@ -3,7 +3,7 @@
 #ifndef REDBLACK_H
 #define REDBLACK_H
 #include "general.h"
-class redBlack: general
+class redBlack : general
 {
 public:
 	redBlack();
