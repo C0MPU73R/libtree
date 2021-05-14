@@ -1,6 +1,9 @@
+// This is a basic red-black tree structure
+// @author: C0MPU73R
 #ifndef REDBLACK_H
 #define REDBLACK_H
-class redBlack
+#include "general.h"
+class redBlack: general
 {
 public:
 	redBlack();

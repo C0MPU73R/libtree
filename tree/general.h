@@ -1,3 +1,5 @@
+// This is a basic general purpose tree structure
+// @author: C0MPU73R
 #ifndef GENERAL_H
 #define GENERAL_H
 #include <string>
@@ -16,6 +18,7 @@ public:
 	~general();
 	void addNode();
 	void removeNode();
+	Node* getRoot(); const
 
 
 protected:

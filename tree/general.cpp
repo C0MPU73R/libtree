@@ -17,6 +17,11 @@ void general::removeNode()
 {
 }
 
+Node* general::getRoot()
+{
+	return nullptr;
+}
+
 void Node::resetName(const std::string& name)
 {
 	this->name = name;

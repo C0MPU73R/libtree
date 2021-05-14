@@ -1,6 +1,7 @@
 #ifndef SPLAY_H
 #define SPLAY_H
-class splay
+#include "general.h"
+class splay: general
 {
 public:
 	splay();
