@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Project
 .vcxproj
+libtree.sln
+libtree/libtree.vcxproj
+libtree/libtree.vcxproj.filters
