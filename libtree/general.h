@@ -5,9 +5,13 @@
 #include <string>
 struct Node
 {
+public:
 	std::string name;
 	int xPos;
 	int yPos;
+	Node* prev;
+	Node* left;
+	Node* right;
 
 	void resetName(const std::string& name);
 };
@@ -22,9 +26,9 @@ class general
 		Node* getRoot() const;
 
 	protected:
+		Node* root;
 
 	private:
-		Node* root;
 
 
 };
